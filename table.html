@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Full Periodic Table - 118 Elements</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    gap: 5px;
+    justify-content: center;
+  }
+  .element {
+    background: #fff;
+    border: 1.8px solid #bbb;
+    border-radius: 6px;
+    padding: 6px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: default;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+    position: relative;
+  }
+  .element:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 10;
+  }
+  .element small {
+    display: block;
+    font-weight: normal;
+    font-size: 9px;
+    margin-top: 4px;
+  }
+  /* Color codes */
+  .alkali-metal { background-color: #ff6666; }
+  .alkaline-earth-metal { background-color: #ffdead; }
+  .transition-metal { background-color: #ffd699; }
+  .post-transition-metal { background-color: #cccccc; }
+  .metalloid { background-color: #b3ffb3; }
+  .nonmetal { background-color: #99ccff; }
+  .halogen { background-color: #66ffff; }
+  .noble-gas { background-color: #cc99ff; }
+  .lanthanide { background-color: #ffb3e6; }
+  .actinide { background-color: #d9b3ff; }
+</style>
+</head>
+<body>
+
+<h1>Periodic Table of Elements - 118 Elements</h1>
+
+<div class="periodic-table">
+  <!-- Period 1 -->
+  <div class="element nonmetal" style="grid-column: 1;">H<small>1</small></div>
+  <div class="element noble-gas" style="grid-column: 18;">He<small>2</small></div>
+
+  <!-- Period 2 -->
+  <div class="element alkali-metal">Li<small>3</small></div>
+  <div class="element alkaline-earth-metal">Be<small>4</small></div>
+  <div style="grid-column: 6;"></div>
+  <div style="grid-column: 7;"></div>
+  <div style="grid-column: 8;"></div>
+  <div style="grid-column: 9;"></div>
+  <div class="element metalloid" style="grid-column: 13;">B<small>5</small></div>
+  <div class="element nonmetal">C<small>6</small></div>
+  <div class="element nonmetal">N<small>7</small></div>
+  <div class="element nonmetal">O<small>8</small></div>
+  <div class="element halogen">F<small>9</small></div>
+  <div class="element noble-gas">Ne<small>10</small></div>
+
+  <!-- Period 3 -->
+  <div class="element alkali-metal">Na<small>11</small></div>
+  <div class="element alkaline-earth-metal">Mg<small>12</small></div>
+  <div style="grid-column: 6;"></div>
+  <div style="grid-column: 7;"></div>
+  <div style="grid-column: 8;"></div>
+  <div style="grid-column: 9;"></div>
+  <div class="element post-transition-metal" style="grid-column: 13;">Al<small>13</small></div>
+  <div class="element metalloid">Si<small>14</small></div>
+  <div class="element nonmetal">P<small>15</small></div>
+  <div class="element nonmetal">S<small>16</small></div>
+  <div class="element halogen">Cl<small>17</small></div>
+  <div class="element noble-gas">Ar<small>18</small></div>
+
+  <!-- Period 4 -->
+  <div class="element alkali-metal">K<small>19</small></div>
+  <div class="element alkaline-earth-metal">Ca<small>20</small></div>
+  <div class="element transition-metal">Sc<small>21</small></div>
+  <div class="element transition-metal">Ti<small>22</small></div>
+  <div class="element transition-metal">V<small>23</small></div>
+  <div class="element transition-metal">Cr<small>24</small></div>
+  <div class="element transition-metal">Mn<small>25</small></div>
+  <div class="element transition-metal">Fe<small>26</small></div>
+  <div class="element transition-metal">Co<small>27</small></div>
+  <div class="element transition-metal">Ni<small>28</small></div>
+  <div class="element transition-metal">Cu<small>29</small></div>
+  <div class="element post-transition-metal">Zn<small>30</small></div>
+  <div class="element post-transition-metal">Ga<small>31</small></div>
+  <div class="element metalloid">Ge<small>32</small></div>
+  <div class="element metalloid">As<small>33</small></div>
+  <div class="element nonmetal">Se<small>34</small></div>
+  <div class="element halogen">Br<small>35</small></div>
+  <div class="element noble-gas">Kr<small>36</small></div>
+
+  <!-- Period 5 -->
+  <div class="element alkali-metal">Rb<small>37</small></div>
+  <div class="element alkaline-earth-metal">Sr<small>38</small></div>
+  <div class="element transition-metal">Y<small>39</small></div>
+  <div class="element transition-metal">Zr<small>40</small></div>
+  <div class="element transition-metal">Nb<small>41</small></div>
+  <div class="element transition-metal">Mo<small>42</small></div>
+  <div class="element transition-metal">Tc<small>43</small></div>
+  <div class="element transition-metal">Ru<small>44</small></div>
+  <div class="element transition-metal">Rh<small>45</small></div>
+  <div class="element transition-metal">Pd<small>46</small></div>
+  <div class="element transition-metal">Ag<small>47</small></div>
+  <div class="element post-transition-metal">Cd<small>48</small></div>
+  <div class="element post-transition-metal">In<small>49</small></div>
+  <div class="element post-transition-metal">Sn<small>50</small></div>
+  <div class="element metalloid">Sb<small>51</small></div>
+  <div class="element metalloid">Te<small>52</small></div>
+  <div class="element halogen">I<small>53</small></div>
+  <div class="element noble-gas">Xe<small>54</small></div>
+
+  <!-- Period 6 -->
+  <div class="element alkali-metal">Cs<small>55</small></div>
+  <div class="element alkaline-earth-metal">Ba<small>56</small></div>
+  
+  <!-- Lanthanides block -->
+  <div class="element lanthanide" style="grid-column: 3;">La<small>57</small></div>
+  <div class="element lanthanide">Ce<small>58</small></div>
+  <div class="element lanthanide">Pr<small>59</small></div>
+  <div class="element lanthanide">Nd<small>60</small></div>
+  <div class="element lanthanide">Pm<small>61</small></div>
+  <div class="element lanthanide">Sm<small>62</small></div>
+  <div class="element lanthanide">Eu<small>63</small></div>
+  <div class="element lanthanide">Gd<small>64</small></div>
+  <div class="element lanthanide">Tb<small>65</small></div>
+  <div class="element lanthanide">Dy<small>66</small></div>
+  <div class="element lanthanide">Ho<small>67</small></div>
+  <div class="element lanthanide">Er<small>68</small></div>
+  <div class="element lanthanide">Tm<small>69</small></div>
+  <div class="element lanthanide">Yb<small>70</small></div>
+  <div class="element lanthanide">Lu<small>71</small></div>
+
+  <div class="element transition-metal">Hf<small>72</small></div>
+  <div class="element transition-metal">Ta<small>73</small></div>
+  <div class="element transition-metal">W<small>74</small></div>
+  <div class="element transition-metal">Re<small>75</small></div>
+  <div class="element transition-metal">Os<small>76</small></div>
+  <div class="element transition-metal">Ir<small>77</small></div>
+  <div class="element transition-metal">Pt<small>78</small></div>
+  <div class="element transition-metal">Au<small>79</small></div>
+  <div class="element post-transition-metal">Hg<small>80</small></div>
+  <div class="element post-transition-metal">Tl<small>81</small></div>
+  <div class="element post-transition-metal">Pb<small>82</small></div>
+  <div class="element post-transition-metal">Bi<small>83</small></div>
+  <div class="element metalloid">Po<small>84</small></div>
+  <div class="element halogen">At<small>85</small></div>
+  <div class="element noble-gas">Rn<small>86</small></div>
+
+  <!-- Period 7 -->
+  <div class="element alkali-metal">Fr<small>87</small></div>
+  <div class="element alkaline-earth-metal">Ra<small>88</small></div>
+  
+  <!-- Actinides block -->
+  <div class="element actinide" style="grid-column: 3;">Ac<small>89</small></div>
+  <div class="element actinide">Th<small>90</small></div>
+  <div class="element actinide">Pa<small>91</small></div>
+  <div class="element actinide">U<small>92</small></div>
+  <div class="element actinide">Np<small>93</small></div>
+  <div class="element actinide">Pu<small>94</small></div>
+  <div class="element actinide">Am<small>95</small></div>
+  <div class="element actinide">Cm<small>96</small></div>
+  <div class="element actinide">Bk<small>97</small></div>
+  <div class="element actinide">Cf<small>98</small></div>
+  <div class="element actinide">Es<small>99</small></div>
+  <div class="element actinide">Fm<small>100</small></div>
+  <div class="element actinide">Md<small>101</small></div>
+  <div class="element actinide">No<small>102</small></div>
+  <div class="element actinide">Lr<small>103</small></div>
+
+  <div class="element transition-metal">Rf<small>104</small></div>
+  <div class="element transition-metal">Db<small>105</small></div>
+  <div class="element transition-metal">Sg<small>106</small></div>
+  <div class="element transition-metal">Bh<small>107</small></div>
+  <div class="element transition-metal">Hs<small>108</small></div>
+  <div class="element transition-metal">Mt<small>109</small></div>
+  <div class="element transition-metal">Ds<small>110</small></div>
+  <div class="element transition-metal">Rg<small>111</small></div>
+  <div class="element post-transition-metal">Cn<small>112</small></div>
+  <div class="element post-transition-metal">Nh<small>113</small></div>
+  <div class="element post-transition-metal">Fl<small>114</small></div>
+  <div class="element post-transition-metal">Mc<small>115</small></div>
+  <div class="element post-transition-metal">Lv<small>116</small></div>
+  <div class="element post-transition-metal">Ts<small>117</small></div>
+  <div class="element halogen">Og<small>118</small></div>
+</div>
+
+</body>
+</html>
